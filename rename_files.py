@@ -23,7 +23,7 @@ def get_parser():
 	
 def main():
 	parser = get_parser()
-	args = vars(parser.parse-args())
+	args = vars(parser.parse_args())
 	
 	work_dir = args['old_ext'][0]
 	old_ext = args['old_ext'][0]
